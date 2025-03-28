@@ -5,7 +5,7 @@ function CodeNoiseSection() {
 
     return(
 
-        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '3.4375rem', padding: '0rem 3.125rem 0rem 3.125rem'}}>
+        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '3.4375rem', padding: '0rem 0.825rem 0rem 0.825rem'}}>
         
         <section className="">
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-0 lg:px-6">

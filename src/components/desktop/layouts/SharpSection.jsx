@@ -5,7 +5,7 @@ const SharpSection = forwardRef((props, ref) => {
 
     return(
 
-        <div ref={ref} style={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '3.4375rem', padding: '0rem 3.125rem 0rem 3.125rem'}}>
+        <div ref={ref} style={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '3.4375rem', padding: '0rem 0.825rem 0rem 0.825rem'}}>
         
         <section className="">
         <h2 className="mb-0 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white" style={{ color: "#7562E0" }}>Featured projects:</h2>

@@ -9,10 +9,9 @@ import remoteImage from '../../pictures/remote.png';
 function OfferServices() {
 
     return(
-        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '3.4375rem', padding: '0rem 3.125rem 0rem 3.125rem'}}>
+        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginTop: '3.4375rem', padding: '0rem 0.825rem 0rem 0.825rem'}}>
             <div>
             <section className="">
-            {/* <Header>The services i offer:</Header> */}
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white" style={{ color: "#7562E0" }}>The services i offer:</h2>
   <div className="py-4 px-4 mx-auto max-w-screen-xl sm:py-8 lg:px-6">
       <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
