@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { styled } from "styled-components";
 import MyPicture from '../pictures/Slavynia.png';
-import MyName from "../MyName";
 import LinkedIn1 from '../pictures/linkedin1.png';
 import LinkedIn2 from '../pictures/linkedin2.png';
 import MyNameMobile from "../MyNameMobile";
@@ -32,12 +31,11 @@ function HeadingMobile({scrollToAboutMe}) {
     return(
         <section className="">
     <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7" style={{marginTop: '12vh'}}>
+        <div className="mr-auto place-self-center lg:col-span-7" style={{marginTop: '8vh'}}>
         <div className="flex justify-center mt-6 lg:mt-0 lg:col-span-5" style={{marginBottom: '3rem'}}>
             <img src={MyPicture} alt="mockup"/>
         </div> 
             <h2 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none sm:text-5xl md:text-5xl xl:text-4xl dark:text-white">Hello, i'm</h2>
-            {/* <h2 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-tight leading-none dark:text-white">Hello, I'm</h2> */}
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"><MyNameMobile/></h1>
             
             <p className="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-white" style={{ fontWeight: 300 }}>Software Engineer in Test. Champion of quality, finding issues before customers do!</p>

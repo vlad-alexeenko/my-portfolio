@@ -30,7 +30,8 @@ const scrollToProjects = () => {
 useEffect(() => {
 	const handleResize = () => {
 	setIsMobile(window.innerWidth <= 630);
-  setIsXl(window.innerHeight >= 900);
+  setIsXl(window.innerHeight >= 900 && window.innerWidth > 600);
+
 	 };
   
 	 window.addEventListener('resize', handleResize);
