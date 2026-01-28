@@ -6,7 +6,7 @@ import rightPicture from '../pictures/rightPicture.png';
 
 const AboutMeMobileSection = forwardRef((props, ref) => {
 
-     const [year, setYear] = useState(6);
+     const [year, setYear] = useState(7);
     
     function increase() {
         setYear(year+1);
